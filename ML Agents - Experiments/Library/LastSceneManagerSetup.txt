@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/ML-Agents/Examples/3DBall/Scenes/3DBall.unity
+- path: Assets/Scenes/My First ML Agents Env.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
