@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/My First ML Agents Env.unity
+- path: Assets/Scenes/Sphere Ball Balancing AI Env.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,0 +1,36 @@
+{
+    "My Behavior": {
+        "checkpoints": [
+            {
+                "steps": 499747,
+                "file_path": "results\\BallBalancingAI6\\My Behavior\\My Behavior-499747.onnx",
+                "reward": 17.571877527981997,
+                "creation_time": 1608316403.8502574
+            },
+            {
+                "steps": 999630,
+                "file_path": "results\\BallBalancingAI6\\My Behavior\\My Behavior-999630.onnx",
+                "reward": 633.5500926971436,
+                "creation_time": 1608317385.6686475
+            },
+            {
+                "steps": 1000329,
+                "file_path": "results\\BallBalancingAI6\\My Behavior\\My Behavior-1000329.onnx",
+                "reward": 445.3000653584798,
+                "creation_time": 1608317385.7586446
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000329,
+            "file_path": "results\\BallBalancingAI6\\My Behavior.onnx",
+            "reward": 445.3000653584798,
+            "creation_time": 1608317385.7586446
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}
