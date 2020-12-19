@@ -221,8 +221,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 1092211761}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &208496117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,7 +351,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.25
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -361,7 +360,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.141
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -391,7 +390,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -593,8 +592,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 2038581792}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &511112820
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -873,8 +871,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 1421359290}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &551526634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1043,8 +1040,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 1589199898}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &629941149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1213,8 +1209,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 1566461054}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &705410009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,8 +1616,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 863010073}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &1056782120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1868,7 +1862,7 @@ Camera:
   m_GameObject: {fileID: 1303011551}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2094,8 +2088,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 536525961}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &1399719672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2406,8 +2399,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 506258244}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &1424786087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3046,8 +3038,7 @@ MonoBehaviour:
   hasUpgradedFromAgentParameters: 1
   MaxStep: 0
   ball: {fileID: 1336895284}
-  freshMaterial: {fileID: 2100000, guid: f5716b87e596d594d8b1bee81c50102d, type: 2}
-  lostMaterial: {fileID: 2100000, guid: 94682488f1e275f48bffff6935be340d, type: 2}
+  numberOfTimesLost: 0
 --- !u!114 &1774497876
 MonoBehaviour:
   m_ObjectHideFlags: 0
