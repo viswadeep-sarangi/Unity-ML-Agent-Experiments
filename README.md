@@ -6,6 +6,5 @@
 ## Projects
 
 ### 1. Replica of the basic 'Ball Balancing' AI included in ML Agents example projects
----
 This was my first try at understanding the inner mechanisms of the ML Agents toolkit, to later modify and adapt to my own ideas. The exact project can be found here.
 
