@@ -25,8 +25,10 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
 ![Sphere Ball Balancing AI on Cube](_github_readme_resources/sphere_ball_balancing_ai.gif)     
 
 
-### 3. Dribbling a Ball in Place
-Combining the learnings from the above projects, this project expanded the output space to be able to control both position as well as rotation of a surface with the aim of bouncing a ball, while making sure it doesn't go outside the bounds. The twist is that, the ball bounces higher everytime it touches the surface, making it harder to contain it in the bounds. The project can be found in the Scenes folder named "Bouncy Ball on Plate AI Env".   
+### 3. Dribbling a Ball on a Plate
+Combining the learnings from the above projects, this project expanded the output space to be able to control both position as well as rotation of a plate surface with the aim of bouncing a ball, while making sure it doesn't go outside the bounds or drop to the ground. The twist is that, the ball bounces higher everytime it touches the surface, making it harder to contain it in the bounds with every bounce. The project can be found in the Scenes folder named "Bouncy Ball on Plate AI Env".   
+
+***This animated gif demonstrates 9 plates, all having the same 'ML Brain' but initialized with random positions and rotations***
 Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder.
    
 ![Bouncy Ball on Surface AI](_github_readme_resources/bouncy_ball_balancing_ai.gif)  
