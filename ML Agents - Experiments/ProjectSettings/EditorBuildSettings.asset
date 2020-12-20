@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Bouncy Ball on Plate AI Env.unity
+    guid: fa1a029417afdac45a3a96432ab34321
   m_configObjects: {}
