@@ -1,0 +1,234 @@
+{
+    "BallBouncer": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-499992.onnx",
+                "reward": 0.26458684348738415,
+                "creation_time": 1608420139.4467816
+            },
+            {
+                "steps": 999993,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-999993.onnx",
+                "reward": 0.6487654028115449,
+                "creation_time": 1608421193.607601
+            },
+            {
+                "steps": 1499990,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-1499990.onnx",
+                "reward": 1.9155340171554713,
+                "creation_time": 1608422210.1795502
+            },
+            {
+                "steps": 1999904,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-1999904.onnx",
+                "reward": 3.593204249456091,
+                "creation_time": 1608423194.7549145
+            },
+            {
+                "steps": 2499967,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-2499967.onnx",
+                "reward": 8.272581882053807,
+                "creation_time": 1608424137.5230498
+            },
+            {
+                "steps": 2999812,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-2999812.onnx",
+                "reward": 14.669093343344601,
+                "creation_time": 1608425124.079704
+            },
+            {
+                "steps": 3499776,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-3499776.onnx",
+                "reward": 36.988894356621635,
+                "creation_time": 1608426086.8079622
+            },
+            {
+                "steps": 3999603,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-3999603.onnx",
+                "reward": 74.82001037597657,
+                "creation_time": 1608427025.6832898
+            },
+            {
+                "steps": 4499836,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-4499836.onnx",
+                "reward": 45.131257094442844,
+                "creation_time": 1608427954.9125628
+            },
+            {
+                "steps": 4999864,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-4999864.onnx",
+                "reward": 66.3866764942805,
+                "creation_time": 1608428891.1473622
+            },
+            {
+                "steps": 5499262,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-5499262.onnx",
+                "reward": 94.85001468658447,
+                "creation_time": 1608429825.7364473
+            },
+            {
+                "steps": 5999822,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-5999822.onnx",
+                "reward": 165.80002446472645,
+                "creation_time": 1608430755.4673162
+            },
+            {
+                "steps": 6499870,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-6499870.onnx",
+                "reward": 111.80001667567662,
+                "creation_time": 1608431656.959942
+            },
+            {
+                "steps": 6999419,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-6999419.onnx",
+                "reward": 73.58751142024994,
+                "creation_time": 1608432529.269856
+            },
+            {
+                "steps": 7499670,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-7499670.onnx",
+                "reward": 98.43334833780925,
+                "creation_time": 1608433399.5989559
+            },
+            {
+                "steps": 7999816,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-7999816.onnx",
+                "reward": 501.3000763654709,
+                "creation_time": 1608434274.34657
+            },
+            {
+                "steps": 8499778,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-8499778.onnx",
+                "reward": 175.0166924794515,
+                "creation_time": 1608435143.9406233
+            },
+            {
+                "steps": 8999808,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-8999808.onnx",
+                "reward": 155.96669149398804,
+                "creation_time": 1608436017.0708745
+            },
+            {
+                "steps": 9499863,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-9499863.onnx",
+                "reward": 25.314289740153722,
+                "creation_time": 1608436888.6278362
+            },
+            {
+                "steps": 9999042,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-9999042.onnx",
+                "reward": 479.0000762939453,
+                "creation_time": 1608437757.01939
+            },
+            {
+                "steps": 10499853,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-10499853.onnx",
+                "reward": 122.90001991662112,
+                "creation_time": 1608438628.9442365
+            },
+            {
+                "steps": 10999287,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-10999287.onnx",
+                "reward": 100.72223785188463,
+                "creation_time": 1608439546.2548501
+            },
+            {
+                "steps": 11499071,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-11499071.onnx",
+                "reward": 45.16667334238688,
+                "creation_time": 1608440488.9701133
+            },
+            {
+                "steps": 11999275,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-11999275.onnx",
+                "reward": null,
+                "creation_time": 1608441364.1206903
+            },
+            {
+                "steps": 12499974,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-12499974.onnx",
+                "reward": 26.000003242492674,
+                "creation_time": 1608442234.9703655
+            },
+            {
+                "steps": 12999848,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-12999848.onnx",
+                "reward": 362.57505321502686,
+                "creation_time": 1608443102.6979249
+            },
+            {
+                "steps": 13499862,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-13499862.onnx",
+                "reward": 241.46670405069986,
+                "creation_time": 1608443975.4499195
+            },
+            {
+                "steps": 13999743,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-13999743.onnx",
+                "reward": null,
+                "creation_time": 1608444840.5002742
+            },
+            {
+                "steps": 14499405,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-14499405.onnx",
+                "reward": 81.55001449584961,
+                "creation_time": 1608445709.5445755
+            },
+            {
+                "steps": 14999571,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-14999571.onnx",
+                "reward": 112.26668294270833,
+                "creation_time": 1608446582.0345244
+            },
+            {
+                "steps": 15499620,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-15499620.onnx",
+                "reward": 996.400146484375,
+                "creation_time": 1608447452.3136997
+            },
+            {
+                "steps": 15999964,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-15999964.onnx",
+                "reward": null,
+                "creation_time": 1608448326.2676973
+            },
+            {
+                "steps": 16499393,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-16499393.onnx",
+                "reward": 156.90002059936523,
+                "creation_time": 1608449196.4196107
+            },
+            {
+                "steps": 16999647,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-16999647.onnx",
+                "reward": null,
+                "creation_time": 1608450063.965089
+            },
+            {
+                "steps": 17499554,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-17499554.onnx",
+                "reward": 551.7000846862793,
+                "creation_time": 1608450935.5227804
+            },
+            {
+                "steps": 17940978,
+                "file_path": "results\\BallBouncer\\BallBouncer\\BallBouncer-17940978.onnx",
+                "reward": 151.5000228881836,
+                "creation_time": 1608451700.5388777
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 17940978,
+            "file_path": "results\\BallBouncer\\BallBouncer.onnx",
+            "reward": 151.5000228881836,
+            "creation_time": 1608451700.5388777
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

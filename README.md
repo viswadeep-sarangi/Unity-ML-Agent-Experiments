@@ -13,6 +13,14 @@ Below is a demo of the ML Brain that was trained with the Proximal Policy Optimi
 
 
 ### 2. Ball Balancing on a Bigger Ball
-After understanding the internal mechanisms of the ML Agents toolkit, this project was implemented to train the RL AI on a 'harder' problem which adhered to the previous objective of balancing a ball, but on a spherical surface. This project tests the ML-Agents toolkit in being able to optimize the agent in a limited 'tight space' of movement with an initially randomly placed ball and spherical bigger ball. Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder.
+After understanding the internal mechanisms of the ML Agents toolkit, this project was implemented to train the RL AI on a 'harder' problem which adhered to the previous objective of balancing a ball, but on a spherical surface. This project tests the ML-Agents toolkit in being able to optimize the agent in a limited 'tight space' of movement with an initially randomly placed ball and spherical bigger ball. The project can be found in the Scenes folder named "Bouncy Ball on Plate AI Env".   
+Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder.
 
-![Sphere Ball Balancing AI on Cube](_github_readme_resources/sphere_ball_balancing_ai.gif)
+![Sphere Ball Balancing AI on Cube](_github_readme_resources/sphere_ball_balancing_ai.gif)  
+  
+
+### 3. Dribbling a Ball in Place
+Combining the learnings from the above projects, this project expanded the output space to be able to control both position as well as rotation of a surface with the aim of bouncing a ball, while making sure it doesn't go outside the bounds. The twist is that, the ball bounces higher everytime it touches the surface, making it harder to contain it in the bounds. The project can be found in the Scenes folder named "Bouncy Ball on Plate AI Env".   
+Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder.
+   
+![Bouncy Ball on Surface AI](_github_readme_resources/bouncy_ball_balancing_ai.gif)  
