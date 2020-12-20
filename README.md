@@ -13,7 +13,7 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
 
 ![Ball Balancing AI on Cube](_github_readme_resources/cube_ball_balancing_ai.gif)   
    
-   
+**Keywords:** `Reinforcement Learning` `Promixal Policy Optimization` `Multilayer Perceptron Neural Network`
       
       
 ### 2. Ball Balancing on a Bigger Ball
@@ -24,6 +24,7 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
 
 ![Sphere Ball Balancing AI on Cube](_github_readme_resources/sphere_ball_balancing_ai.gif)     
 
+**Keywords:** `Reinforcement Learning` `Promixal Policy Optimization` `Multilayer Perceptron Neural Network`
 
 ### 3. Dribbling a Ball on a Plate
 Combining the learnings from the above projects, this project expanded the output space to be able to control both position as well as rotation of a plate surface with the aim of bouncing a ball, while making sure it doesn't go outside the bounds or drop to the ground. The twist is that, the ball bounces higher everytime it touches the surface, making it harder to contain it in the bounds with every bounce. The project can be found in the Scenes folder named "Bouncy Ball on Plate AI Env".   
@@ -33,3 +34,5 @@ Combining the learnings from the above projects, this project expanded the outpu
 Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder.
    
 ![Bouncy Ball on Surface AI](_github_readme_resources/bouncy_ball_balancing_ai.gif)  
+
+**Keywords:** `Reinforcement Learning` `Promixal Policy Optimization` `Multilayer Perceptron Neural Network`
