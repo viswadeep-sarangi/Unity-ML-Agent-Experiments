@@ -36,5 +36,7 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
 ![Bouncy Ball on Surface AI](_github_readme_resources/bouncy_ball_balancing_ai.gif)  
 
 **Keywords:** `Reinforcement Learning` `Promixal Policy Optimization` `Multilayer Perceptron Neural Network`
-
-#### Feel free to ask me anything about any of the projects at <viswadeep.sarangi@gmail.com>
+   
+  
+-----  
+### Feel free to ask me about any of the projects at <viswadeep.sarangi@gmail.com>
