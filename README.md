@@ -37,4 +37,4 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
 
 **Keywords:** `Reinforcement Learning` `Promixal Policy Optimization` `Multilayer Perceptron Neural Network`
 
-### Feel free to ask me anything about any of the projects at <viswadeep.sarangi@gmail.com>
+#### Feel free to ask me anything about any of the projects at <viswadeep.sarangi@gmail.com>
