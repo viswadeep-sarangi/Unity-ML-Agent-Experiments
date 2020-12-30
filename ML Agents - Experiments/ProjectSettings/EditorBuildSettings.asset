@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Bouncy Ball on Plate AI Env.unity
+    path: Assets/Scenes/3. Bouncy Ball on Plate AI Env (RL).unity
     guid: fa1a029417afdac45a3a96432ab34321
   m_configObjects: {}

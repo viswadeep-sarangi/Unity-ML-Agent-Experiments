@@ -12,7 +12,7 @@ public class ReacherAgent : Agent
     Rigidbody m_RbA;
     Rigidbody m_RbB;
     // speed of the goal zone around the arm (in radians)
-    float m_GoalSpeed;
+    public float m_GoalSpeed;
     // radius of the goal zone
     float m_GoalSize;
     // Magnitude of sinusoidal (cosine) deviation of the goal along the vertical dimension

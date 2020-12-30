@@ -1,0 +1,120 @@
+{
+    "MinionMover": {
+        "checkpoints": [
+            {
+                "steps": 499961,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-499961.onnx",
+                "reward": -22.454760954930233,
+                "creation_time": 1608586669.5206954
+            },
+            {
+                "steps": 999825,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-999825.onnx",
+                "reward": -6.641141812006633,
+                "creation_time": 1608587816.259154
+            },
+            {
+                "steps": 1499585,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-1499585.onnx",
+                "reward": -11.4785411549466,
+                "creation_time": 1608588859.4008787
+            },
+            {
+                "steps": 1999993,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-1999993.onnx",
+                "reward": -23.218440252801646,
+                "creation_time": 1608589897.6997223
+            },
+            {
+                "steps": 2499428,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-2499428.onnx",
+                "reward": -11.669794296224913,
+                "creation_time": 1608590935.0637188
+            },
+            {
+                "steps": 2999705,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-2999705.onnx",
+                "reward": -23.853861102691063,
+                "creation_time": 1608591973.5179121
+            },
+            {
+                "steps": 3499801,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-3499801.onnx",
+                "reward": -20.138805858550533,
+                "creation_time": 1608593058.5993357
+            },
+            {
+                "steps": 3999967,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-3999967.onnx",
+                "reward": -32.60179577767849,
+                "creation_time": 1608594159.0403812
+            },
+            {
+                "steps": 4499711,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-4499711.onnx",
+                "reward": -11.463646939306548,
+                "creation_time": 1608595199.375921
+            },
+            {
+                "steps": 4999981,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-4999981.onnx",
+                "reward": -19.92776095867157,
+                "creation_time": 1608596246.0124607
+            },
+            {
+                "steps": 5499763,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-5499763.onnx",
+                "reward": -28.48707969372089,
+                "creation_time": 1608597291.523005
+            },
+            {
+                "steps": 5999712,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-5999712.onnx",
+                "reward": null,
+                "creation_time": 1608598457.1048622
+            },
+            {
+                "steps": 6499899,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-6499899.onnx",
+                "reward": -20.965659233656798,
+                "creation_time": 1608599507.4130557
+            },
+            {
+                "steps": 6999389,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-6999389.onnx",
+                "reward": -17.157485018173855,
+                "creation_time": 1608600547.0648565
+            },
+            {
+                "steps": 7499877,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-7499877.onnx",
+                "reward": -18.704051864774602,
+                "creation_time": 1608601589.3069453
+            },
+            {
+                "steps": 7999660,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-7999660.onnx",
+                "reward": -9.221183843082851,
+                "creation_time": 1608602635.8446803
+            },
+            {
+                "steps": 8209191,
+                "file_path": "results\\MinionMover\\MinionMover\\MinionMover-8209191.onnx",
+                "reward": -8.877594468494257,
+                "creation_time": 1608603135.8811343
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 8209191,
+            "file_path": "results\\MinionMover\\MinionMover.onnx",
+            "reward": -8.877594468494257,
+            "creation_time": 1608603135.8811343
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

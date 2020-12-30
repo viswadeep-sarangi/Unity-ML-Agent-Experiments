@@ -16,7 +16,9 @@ public class CrawlerAgent : Agent
     public bool respawnTargetWhenTouched;
     public float targetSpawnRadius;
 
-    [Header("Body Parts")] [Space(10)] public Transform body;
+    [Header("Body Parts")]
+    [Space(10)]
+    public Transform body;
     public Transform leg0Upper;
     public Transform leg0Lower;
     public Transform leg1Upper;
@@ -26,7 +28,10 @@ public class CrawlerAgent : Agent
     public Transform leg3Upper;
     public Transform leg3Lower;
 
-    [Header("Joint Settings")] [Space(10)] JointDriveController m_JdController;
+
+    [Header("Joint Settings")]
+    [Space(10)]
+    JointDriveController m_JdController;
     Vector3 m_DirToTarget;
     float m_MovingTowardsDot;
     float m_FacingDot;

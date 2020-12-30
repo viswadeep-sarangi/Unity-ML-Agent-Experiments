@@ -1,0 +1,48 @@
+{
+    "AntMover": {
+        "checkpoints": [
+            {
+                "steps": 4999757,
+                "file_path": "results\\AntMover\\AntMover\\AntMover-4999757.onnx",
+                "reward": 466.1458723280165,
+                "creation_time": 1609302959.034243
+            },
+            {
+                "steps": 5499523,
+                "file_path": "results\\AntMover\\AntMover\\AntMover-5499523.onnx",
+                "reward": 604.6893107096354,
+                "creation_time": 1609305195.2951307
+            },
+            {
+                "steps": 5999229,
+                "file_path": "results\\AntMover\\AntMover\\AntMover-5999229.onnx",
+                "reward": 567.2762451171875,
+                "creation_time": 1609307381.7318773
+            },
+            {
+                "steps": 6499467,
+                "file_path": "results\\AntMover\\AntMover\\AntMover-6499467.onnx",
+                "reward": 571.0198524876645,
+                "creation_time": 1609309579.3531086
+            },
+            {
+                "steps": 6897761,
+                "file_path": "results\\AntMover\\AntMover\\AntMover-6897761.onnx",
+                "reward": 576.360716925727,
+                "creation_time": 1609311331.6454413
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 6897761,
+            "file_path": "results\\AntMover\\AntMover.onnx",
+            "reward": 576.360716925727,
+            "creation_time": 1609311331.6454413
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

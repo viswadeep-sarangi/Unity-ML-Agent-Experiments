@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/RL Another Try.unity
+- path: Assets/Scenes/3. Bouncy Ball on Plate AI Env (RL).unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
