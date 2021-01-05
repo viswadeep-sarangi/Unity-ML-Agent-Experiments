@@ -5,12 +5,12 @@ namespace Unity.MLAgentsExamples
     public class CameraFollow : MonoBehaviour
     {
         public Transform target;
-        Vector3 m_Offset;
+        Vector3 m_Offset;        
 
         // Use this for initialization
         void Start()
         {
-            m_Offset = gameObject.transform.position - target.position;
+            m_Offset = gameObject.transform.position - target.position;            
         }
 
         // Update is called once per frame
@@ -20,6 +20,22 @@ namespace Unity.MLAgentsExamples
             var newPosition = new Vector3(target.position.x + m_Offset.x, transform.position.y,
                 target.position.z + m_Offset.z);
             gameObject.transform.position = newPosition;
+
+            transform.LookAt(target);
+
+        }
+
+        public void ZoomInOut(bool _in_else_out)
+        {
+            // zoom in
+            if(_in_else_out)
+            {
+                m_Offset += m_Offset.normalized;
+            }
+            else
+            {
+                m_Offset -= m_Offset.normalized;
+            }
         }
     }
 }

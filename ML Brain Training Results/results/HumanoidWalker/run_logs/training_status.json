@@ -1,0 +1,84 @@
+{
+    "HumanoidWalker": {
+        "checkpoints": [
+            {
+                "steps": 499992,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-499992.onnx",
+                "reward": -26.75848543407112,
+                "creation_time": 1609371956.9115734
+            },
+            {
+                "steps": 999996,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-999996.onnx",
+                "reward": -15.080546793270866,
+                "creation_time": 1609374717.7087233
+            },
+            {
+                "steps": 1499998,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-1499998.onnx",
+                "reward": -11.094243248378005,
+                "creation_time": 1609377610.2494922
+            },
+            {
+                "steps": 1999993,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-1999993.onnx",
+                "reward": -8.484146643993425,
+                "creation_time": 1609380481.3832471
+            },
+            {
+                "steps": 2499993,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-2499993.onnx",
+                "reward": -6.432123664178346,
+                "creation_time": 1609383354.0298145
+            },
+            {
+                "steps": 2999998,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-2999998.onnx",
+                "reward": -4.906980532948648,
+                "creation_time": 1609386142.365099
+            },
+            {
+                "steps": 3499994,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-3499994.onnx",
+                "reward": -3.8279127384923264,
+                "creation_time": 1609388922.753728
+            },
+            {
+                "steps": 3999997,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-3999997.onnx",
+                "reward": -2.7004864742327186,
+                "creation_time": 1609391771.660699
+            },
+            {
+                "steps": 4499995,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-4499995.onnx",
+                "reward": -2.0633760276668798,
+                "creation_time": 1609394525.3990347
+            },
+            {
+                "steps": 4999999,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-4999999.onnx",
+                "reward": -1.5451193451881409,
+                "creation_time": 1609397276.841665
+            },
+            {
+                "steps": 5437584,
+                "file_path": "results\\HumanoidWalker\\HumanoidWalker\\HumanoidWalker-5437584.onnx",
+                "reward": -1.1793902327532584,
+                "creation_time": 1609399674.3400564
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5437584,
+            "file_path": "results\\HumanoidWalker\\HumanoidWalker.onnx",
+            "reward": -1.1793902327532584,
+            "creation_time": 1609399674.3400564
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.22.0",
+        "torch_version": "1.7.0+cu110",
+        "tensorflow_version": -1
+    }
+}

@@ -67,7 +67,7 @@ public class AntAgent : Agent
     {
         m_JdController = GetComponent<JointDriveController>();
         m_DirToTarget = target.position - body.position;
-
+        
 
         //Setup each body part
         // There's 1 body
@@ -155,16 +155,25 @@ public class AntAgent : Agent
         Debug.Log(string.Format("Yes! {0} of parent {1} touched the Target!", gameObject.name, gameObject.transform.parent.name));
         if (respawnTargetWhenTouched)
         {
-            GetRandomTargetPos();
+            GetTargetPos();
         }
     }
 
     /// <summary>
     /// Moves target to a random position within specified radius.
     /// </summary>
-    public void GetRandomTargetPos()
+    public void GetTargetPos(Vector3? _newPos = null)
     {
-        var newTargetPos = Random.insideUnitSphere * targetSpawnRadius;
+        Vector3 newTargetPos;
+        if (!_newPos.HasValue)
+        {
+            newTargetPos = Random.insideUnitSphere * targetSpawnRadius;
+        }
+        else
+        {
+            newTargetPos = _newPos.Value;
+        }
+        
         newTargetPos.y = 5;
         target.position = newTargetPos + ground.position;
     }
@@ -256,6 +265,35 @@ public class AntAgent : Agent
         }
     }
 
+    private void Update()
+    {
+        //Clicking and repositing the present
+        if (Input.GetMouseButtonDown(0))
+        {
+            RaycastHit hit;
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ray, out hit))
+            {
+                //suppose i have two objects here named obj1 and obj2.. how do i select obj1 to be transformed 
+                if (hit.transform == ground)
+                {
+                    Debug.Log("Mouse clicked on the ground at " + hit.point);
+                    GetTargetPos(hit.point);
+                }
+            }
+        }
+
+        //Scroll Wheel for Zoom In and Out
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f) // forward
+        {
+            Camera.main.GetComponent<CameraFollow>().ZoomInOut(true);
+        }
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // backwards
+        {
+            Camera.main.GetComponent<CameraFollow>().ZoomInOut(false);
+        }
+    }
+
     /// <summary>
     /// Reward moving towards target & Penalize moving away from target.
     /// </summary>
@@ -300,7 +338,7 @@ public class AntAgent : Agent
         }
         if (!targetIsStatic)
         {
-            GetRandomTargetPos();
+            GetTargetPos();
         }
     }
 }
