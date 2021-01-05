@@ -8,7 +8,9 @@
 ### Christmas Bug
 This was a fun project made for Christmas 2020 showing an animation of an excited bug endlessly chasing Christmas presents.
 The bug was designed from scratch, comprising of native Unity gameobjects linked together using Configurable Joints with appropriate limits. The movements of the bug (agent) were trained using RL AI based on PPO and rewarded on (1) looking towards the present, (2) moving towards the present, and finally (3) getting the present. The agent was penalized for (1) head touching the ground, and (2) taking too long to get to the present.  
-Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder. The project can be found in the Scenes folder named "4. Ant Mover (RL)"
+Details of the training parameters of the ML-Agents Academy and the RL AI network are in `trainer_config.yaml` in the `ML Brain Training Results` folder. The project can be found in the Scenes folder named "4. Ant Mover (RL)"   
+
+[You can try it out live in your browser by clicking here](https://viswadeep-sarangi.github.io/christmas-spider-unity-webgl-build/)
 
 ***This animated gif demonstrates a bug model created with native Unity gameobjects and Configurable Joints, trained to crawl towards the presents***
 
