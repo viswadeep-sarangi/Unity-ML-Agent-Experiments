@@ -8,6 +8,7 @@ using UnityEngine;
 public class ReferenceAvatarAnimator : MonoBehaviour
 {
     public ReadJointPositionsTXT ParserScript;
+    public bool CenterBody;
 
     Dictionary<string, List<Keyframe[]>> JointName_PositionKeyframesArray;
     bool InitializedVariables;
@@ -69,7 +70,12 @@ public class ReferenceAvatarAnimator : MonoBehaviour
         {
             AnimationClip animClip = new AnimationClip();
             animClip.legacy = true;
+
+#if UNITY_EDITOR
+            animClip.wrapMode = WrapMode.PingPong;
+#else
             animClip.wrapMode = WrapMode.Once;
+#endif
 
             AnimationCurve animCurve_x = new AnimationCurve(JointName_PositionKeyframesArray[joint][0]);
             AnimationCurve animCurve_y = new AnimationCurve(JointName_PositionKeyframesArray[joint][1]);
