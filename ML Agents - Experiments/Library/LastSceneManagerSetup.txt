@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Scenes/4. Ant Mover (RL).unity
+- path: Assets/Scenes/Recreating Walking Motion in Humanoid Avatar having Configurable
+    Joints.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
