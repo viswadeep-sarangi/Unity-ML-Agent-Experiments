@@ -56,4 +56,4 @@ Details of the training parameters of the ML-Agents Academy and the RL AI networ
    
   
 -----  
-### Feel free to ask me about any of the projects at <viswadeep.sarangi@gmail.com>
+### Feel free to reach out at <viswadeep.sarangi@gmail.com>
